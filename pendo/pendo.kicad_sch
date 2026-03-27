@@ -3681,6 +3681,118 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Terminals:2pin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2pin_0_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2pin_1_1"
+				(pin input line
+					(at -1.27 5.08 270)
+					(length 2.54)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -3888,10 +4000,28 @@
 		(uuid "48d8bfd1-807c-4bd9-8548-48afeb5eb8e2")
 	)
 	(junction
+		(at 78.74 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b25d10a-f76d-42ff-bf4d-f5aa63f46688")
+	)
+	(junction
+		(at 86.36 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6098a613-38ec-4123-b97c-858acfbe361d")
+	)
+	(junction
 		(at 39.37 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65241590-eea6-4578-8021-16973e447433")
+	)
+	(junction
+		(at 76.2 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "671b711c-413f-4004-baf5-4dbd31ff3c0a")
 	)
 	(junction
 		(at 118.11 45.72)
@@ -4013,6 +4143,12 @@
 		(color 0 0 0 0)
 		(uuid "e8b3e103-05b8-44ad-a48e-9dc9997cba79")
 	)
+	(junction
+		(at 88.9 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f890cb97-af96-4a6a-8661-a8f1cb6b6a05")
+	)
 	(wire
 		(pts
 			(xy 78.74 171.45) (xy 152.4 171.45)
@@ -4062,6 +4198,16 @@
 			(type default)
 		)
 		(uuid "057c1309-4ebc-4baa-8e63-774139cf7cf1")
+	)
+	(wire
+		(pts
+			(xy 99.06 176.53) (xy 88.9 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06297b02-d275-4766-968c-7bbdc41fc97c")
 	)
 	(wire
 		(pts
@@ -4205,6 +4351,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 110.49) (xy 63.5 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e00e10b-4a3d-4e90-accb-9785e08345b1")
+	)
+	(wire
+		(pts
 			(xy 157.48 60.96) (xy 176.53 60.96)
 		)
 		(stroke
@@ -4235,6 +4391,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 177.8) (xy 96.52 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3527db-785d-48c6-ad5c-d113cc80878e")
+	)
+	(wire
+		(pts
 			(xy 105.41 48.26) (xy 105.41 45.72)
 		)
 		(stroke
@@ -4252,6 +4418,26 @@
 			(type default)
 		)
 		(uuid "32692065-13e0-4eaf-9940-539b2c21d47f")
+	)
+	(wire
+		(pts
+			(xy 73.66 156.21) (xy 59.69 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "330b3cad-c6d8-4cf0-95be-c4854edf2948")
+	)
+	(wire
+		(pts
+			(xy 74.93 176.53) (xy 78.74 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34672ea2-2587-4e7d-b095-732c56972748")
 	)
 	(wire
 		(pts
@@ -4292,6 +4478,16 @@
 			(type default)
 		)
 		(uuid "3db9fdbe-487b-4442-94ff-245850948ca2")
+	)
+	(wire
+		(pts
+			(xy 60.96 113.03) (xy 60.96 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6b7b97-794b-4799-a13a-6a4215fa15bc")
 	)
 	(wire
 		(pts
@@ -4342,6 +4538,16 @@
 			(type default)
 		)
 		(uuid "47c6d0fa-e503-4933-b56d-cf70bdfdc275")
+	)
+	(wire
+		(pts
+			(xy 88.9 176.53) (xy 78.74 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3128ab-a9f6-4d5e-b39f-8757a9b58e64")
 	)
 	(wire
 		(pts
@@ -4475,6 +4681,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 177.8) (xy 73.66 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667f4cd9-12bf-48be-9356-710d7c5d6c95")
+	)
+	(wire
+		(pts
 			(xy 81.28 45.72) (xy 83.82 45.72)
 		)
 		(stroke
@@ -4492,6 +4708,16 @@
 			(type default)
 		)
 		(uuid "68769aed-a54e-4fe1-9560-98045613b7d9")
+	)
+	(wire
+		(pts
+			(xy 86.36 179.07) (xy 86.36 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a414104-8e91-4371-bb1c-e0c1691462c9")
 	)
 	(wire
 		(pts
@@ -4575,6 +4801,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 154.94) (xy 74.93 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e51d4f-5391-4226-85cb-764bf7f178a7")
+	)
+	(wire
+		(pts
 			(xy 39.37 45.72) (xy 39.37 49.53)
 		)
 		(stroke
@@ -4642,6 +4878,26 @@
 			(type default)
 		)
 		(uuid "80b7d98c-94e9-4b0b-acf3-9d8f297e319e")
+	)
+	(wire
+		(pts
+			(xy 74.93 154.94) (xy 74.93 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81857a16-9107-4276-9559-67e22ecab5b4")
+	)
+	(wire
+		(pts
+			(xy 88.9 179.07) (xy 88.9 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a8a407-e014-4495-9b25-a96fd1c763da")
 	)
 	(wire
 		(pts
@@ -4795,6 +5051,26 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 179.07) (xy 99.06 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d7a291a-04ee-4041-9437-2edafc3ba649")
+	)
+	(wire
+		(pts
+			(xy 76.2 179.07) (xy 76.2 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef4e597-8b82-426e-9144-5be30415cb06")
+	)
+	(wire
+		(pts
 			(xy 58.42 57.15) (xy 58.42 59.69)
 		)
 		(stroke
@@ -4832,6 +5108,16 @@
 			(type default)
 		)
 		(uuid "a35b2982-7f5b-48a3-a95b-0eec27f65a38")
+	)
+	(wire
+		(pts
+			(xy 59.69 156.21) (xy 59.69 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60713a5-0c2a-493b-8d36-4e8037b23847")
 	)
 	(wire
 		(pts
@@ -4965,6 +5251,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 177.8) (xy 73.66 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7cd76b8-0763-4beb-8a3b-45806adb1d11")
+	)
+	(wire
+		(pts
 			(xy 152.4 99.06) (xy 176.53 99.06)
 		)
 		(stroke
@@ -5012,6 +5308,16 @@
 			(type default)
 		)
 		(uuid "ce14c4a9-9f47-436e-b61d-ec81c28b5675")
+	)
+	(wire
+		(pts
+			(xy 63.5 113.03) (xy 60.96 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6d2da3-87dc-446a-9018-d9f84ac96c44")
 	)
 	(wire
 		(pts
@@ -5115,6 +5421,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 179.07) (xy 96.52 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d836ca-8ad6-4c19-938f-945c65fb588c")
+	)
+	(wire
+		(pts
 			(xy 88.9 59.69) (xy 88.9 45.72)
 		)
 		(stroke
@@ -5162,6 +5478,16 @@
 			(type default)
 		)
 		(uuid "e4ded97c-930e-4f0c-85a8-2bfa2a6b23f0")
+	)
+	(wire
+		(pts
+			(xy 78.74 176.53) (xy 78.74 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e772c1e3-770e-4519-b60e-f5afde6bd178")
 	)
 	(wire
 		(pts
@@ -5302,6 +5628,16 @@
 			(type default)
 		)
 		(uuid "f79a744d-a14d-46d0-a57a-51a3b95cc4d4")
+	)
+	(wire
+		(pts
+			(xy 86.36 177.8) (xy 76.2 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f96ab4dd-ad9d-4055-bef9-2cbde428fd8e")
 	)
 	(wire
 		(pts
@@ -5663,6 +5999,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Terminals:2pin")
+		(at 77.47 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cd81285-b007-4d67-a74c-664483e5d7c5")
+		(property "Reference" "U6"
+			(at 81.28 183.5149 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 77.47 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "768582f4-529c-49a4-beed-dd36657f1494")
+		)
+		(pin "2"
+			(uuid "93c6dc29-7afd-4a77-9c7b-2e092a71204b")
+		)
+		(instances
+			(project "pendo"
+				(path "/d9811fef-1998-40af-ab7a-0216534a3f18"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 36.83 20.32 0)
 		(unit 1)
@@ -5817,6 +6234,87 @@
 			(project "pendo"
 				(path "/d9811fef-1998-40af-ab7a-0216534a3f18"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Terminals:2pin")
+		(at 87.63 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29a55bc2-4ec9-41b9-a4aa-558d814876ef")
+		(property "Reference" "U7"
+			(at 91.44 183.5149 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 87.63 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83c238a0-eff2-4912-8f4f-1df06e301152")
+		)
+		(pin "2"
+			(uuid "3757a6ec-feb5-4de4-a24d-6ae1b2f8b1d2")
+		)
+		(instances
+			(project "pendo"
+				(path "/d9811fef-1998-40af-ab7a-0216534a3f18"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -6054,6 +6552,87 @@
 			(project "pendo"
 				(path "/d9811fef-1998-40af-ab7a-0216534a3f18"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Terminals:2pin")
+		(at 97.79 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47112964-f2b6-4d94-b2db-9c7262377285")
+		(property "Reference" "U8"
+			(at 101.6 183.5149 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 97.79 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad61a71e-41a2-40b0-ba70-6c82ba8883db")
+		)
+		(pin "2"
+			(uuid "32a333f1-9f8b-4532-b1e2-f90f5c577b55")
+		)
+		(instances
+			(project "pendo"
+				(path "/d9811fef-1998-40af-ab7a-0216534a3f18"
+					(reference "U8")
 					(unit 1)
 				)
 			)
