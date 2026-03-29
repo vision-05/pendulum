@@ -14,8 +14,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -2.54 16.51 0)
+			(property "Reference" "J4"
+				(at -11.43 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -26,17 +26,17 @@
 				)
 			)
 			(property "Value" "Conn_ARM_JTAG_SWD_10"
-				(at -2.54 13.97 0)
+				(at -11.43 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right bottom)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -269,6 +269,24 @@
 					(at 0 -15.24 90)
 					(length 2.54)
 					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -15.24 90)
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -3793,6 +3811,284 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -3940,6 +4236,12 @@
 		(uuid "0de10a3c-e0e6-41c0-a90d-f38b5f6b7353")
 	)
 	(junction
+		(at 35.56 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ac03dc7-65d4-46a9-94b4-39259836fcef")
+	)
+	(junction
 		(at 173.99 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4048,6 +4350,12 @@
 		(uuid "834c70ff-af06-4a38-bb6c-9b09254a9acf")
 	)
 	(junction
+		(at 21.59 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a56d4a4-45ce-4855-bb7f-2052f0bcc560")
+	)
+	(junction
 		(at 81.28 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4082,6 +4390,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b223134c-40d6-4fc9-8f30-e57c427f0d6a")
+	)
+	(junction
+		(at 39.37 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b42139cc-b776-4a4d-aedf-b1780cd07943")
 	)
 	(junction
 		(at 124.46 55.88)
@@ -4311,7 +4625,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 153.67) (xy 38.1 153.67)
+			(xy 33.02 153.67) (xy 35.56 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4348,6 +4662,16 @@
 			(type default)
 		)
 		(uuid "1cd856a1-5ab0-44cc-ab5d-cfade79995c8")
+	)
+	(wire
+		(pts
+			(xy 35.56 152.4) (xy 35.56 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfe9509-8598-4388-986e-d30fea6fd252")
 	)
 	(wire
 		(pts
@@ -4428,6 +4752,16 @@
 			(type default)
 		)
 		(uuid "330b3cad-c6d8-4cf0-95be-c4854edf2948")
+	)
+	(wire
+		(pts
+			(xy 39.37 11.43) (xy 39.37 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "345c2deb-4681-485f-a9e9-e8485cbc4121")
 	)
 	(wire
 		(pts
@@ -4588,6 +4922,16 @@
 			(type default)
 		)
 		(uuid "5121f5f7-936b-4eec-8d85-593219ae6093")
+	)
+	(wire
+		(pts
+			(xy 17.78 50.8) (xy 21.59 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523ddbc8-dc1a-4a74-9ce9-6889499407ec")
 	)
 	(wire
 		(pts
@@ -4768,6 +5112,16 @@
 			(type default)
 		)
 		(uuid "7238f8cf-3051-4494-aef9-5f6fb257526e")
+	)
+	(wire
+		(pts
+			(xy 17.78 38.1) (xy 17.78 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7395f079-5cc8-4425-b40f-8289887b0ab8")
 	)
 	(wire
 		(pts
@@ -4988,6 +5342,16 @@
 			(type default)
 		)
 		(uuid "92159b1d-0f8a-46db-8139-87a54f62cb79")
+	)
+	(wire
+		(pts
+			(xy 35.56 153.67) (xy 38.1 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9251f0e6-7f07-4bc0-9498-c684f4694330")
 	)
 	(wire
 		(pts
@@ -5341,6 +5705,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 50.8) (xy 39.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a9a95a-13b1-472d-bdd2-c7c13edf5bc3")
+	)
+	(wire
+		(pts
 			(xy 78.74 158.75) (xy 78.74 171.45)
 		)
 		(stroke
@@ -5398,16 +5772,6 @@
 			(type default)
 		)
 		(uuid "d7518187-8323-4877-b993-7738cd1f4294")
-	)
-	(wire
-		(pts
-			(xy 21.59 50.8) (xy 39.37 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8899230-0a13-4d75-9750-95f2ee23f3a8")
 	)
 	(wire
 		(pts
@@ -5713,7 +6077,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 91.7448 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5873,7 +6237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 46.6852 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6031,7 +6395,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 77.47 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -6191,7 +6555,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 36.83 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -6272,7 +6636,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 87.63 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -6351,7 +6715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 49.53 44.7548 0)
 			(hide yes)
 			(show_name no)
@@ -6430,7 +6794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 196.85 44.7548 0)
 			(hide yes)
 			(show_name no)
@@ -6509,7 +6873,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 203.454 105.664 90)
 			(hide yes)
 			(show_name no)
@@ -6590,7 +6954,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 97.79 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -6746,7 +7110,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 196.85 86.6648 0)
 			(hide yes)
 			(show_name no)
@@ -6826,7 +7190,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 63.5 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -6908,7 +7272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.7948 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6990,7 +7354,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
 			(at 33.02 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7052,6 +7416,9 @@
 		)
 		(pin "8"
 			(uuid "d3a8bde9-1516-4780-a757-1a1ba9d64fc4")
+		)
+		(pin "5"
+			(uuid "a106cb58-f93f-4aa9-bcd5-8f7b67ef795a")
 		)
 		(instances
 			(project "pendo"
@@ -7135,6 +7502,84 @@
 			(project "pendo"
 				(path "/d9811fef-1998-40af-ab7a-0216534a3f18"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 39.37 11.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "837978ee-be01-4145-b44c-ba4abff081eb")
+		(property "Reference" "#PWR018"
+			(at 39.37 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 39.37 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 39.37 11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28d59872-88e0-4ecd-a1c2-f293d15c44e4")
+		)
+		(instances
+			(project "pendo"
+				(path "/d9811fef-1998-40af-ab7a-0216534a3f18"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7699,7 +8144,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 67.31 179.3748 0)
 			(hide yes)
 			(show_name no)
@@ -7781,7 +8226,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 117.1448 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8030,7 +8475,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 123.4948 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8190,7 +8635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 226.06 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8269,7 +8714,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 203.454 65.024 90)
 			(hide yes)
 			(show_name no)
@@ -8351,7 +8796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.3852 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8721,7 +9166,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 98.0948 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8959,7 +9404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 226.06 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -9296,7 +9741,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 196.85 37.1348 0)
 			(hide yes)
 			(show_name no)
@@ -9378,7 +9823,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 104.4448 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9421,6 +9866,84 @@
 			(project "pendo"
 				(path "/d9811fef-1998-40af-ab7a-0216534a3f18"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 17.78 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5ce3f31-4536-4753-bc6c-4ed9c762bb01")
+		(property "Reference" "#PWR017"
+			(at 17.78 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 17.78 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 17.78 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8311db95-7043-4d91-9f06-551866aa6153")
+		)
+		(instances
+			(project "pendo"
+				(path "/d9811fef-1998-40af-ab7a-0216534a3f18"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
