@@ -674,7 +674,7 @@
         "uuid": "d9811fef-1998-40af-ab7a-0216534a3f18"
       }
     ],
-    "used_designators": "U6-8,#PWR17-18",
+    "used_designators": "C14-15,#PWR19-25,R3-6,U9-11",
     "variants": []
   },
   "sheets": [
