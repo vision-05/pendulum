@@ -1,0 +1,11 @@
+(version 1)
+(rule "Allow 12V Neckdown for Motor Driver"
+  (condition "A.NetClass == '12V'")
+  (constraint track_width (min 0.2mm))
+  (constraint clearance (min 0.2mm))
+)
+
+(rule "Allow 5V Neckdown for Motor Driver"
+  (condition "A.NetClass == '5V'")
+  (constraint track_width (min 0.2mm))
+)
