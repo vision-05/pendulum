@@ -16911,29 +16911,6 @@
 		(net "+12V")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 103.9 81.51) (xy 103.6 81.51) (xy 103.427656 81.850983) (xy 103.68 82.101) (xy 103.96 81.93)
-			)
-		)
-	)
-	(zone
-		(net "+12V")
-		(layer "F.Cu")
-		(hatch none 0.1)
 		(priority 30000)
 		(attr
 			(teardrop
@@ -16950,6 +16927,29 @@
 		(polygon
 			(pts
 				(xy 187.85 75.45) (xy 188.25 75.45) (xy 188.525149 74.940024) (xy 188 74.449) (xy 187.524396 74.949879)
+			)
+		)
+	)
+	(zone
+		(net "+12V")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30001)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 103.9 81.51) (xy 103.6 81.51) (xy 103.427656 81.850983) (xy 103.68 82.101) (xy 103.96 81.93)
 			)
 		)
 	)
