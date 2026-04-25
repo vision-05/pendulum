@@ -11406,7 +11406,7 @@
 		)
 		(uuid "0894f6a0-9e38-44fb-96e1-319bc1f942fb")
 	)
-	(label "I2C1_SCL"
+	(label "I2C3_SCL"
 		(at 54.61 161.29 0)
 		(effects
 			(font
@@ -11426,7 +11426,7 @@
 		)
 		(uuid "1785d7b7-0040-4d3d-b0b0-ea07fd011724")
 	)
-	(label "I2C3_SDA"
+	(label "I2C1_SDA"
 		(at 240.03 151.13 0)
 		(effects
 			(font
@@ -11436,7 +11436,7 @@
 		)
 		(uuid "1cd9ef0d-d6a4-49db-9f3e-1ab487d49ba9")
 	)
-	(label "I2C3_SDA"
+	(label "I2C1_SDA"
 		(at 260.35 151.13 0)
 		(effects
 			(font
@@ -11586,7 +11586,7 @@
 		)
 		(uuid "41d8ee6f-7fbb-4460-8cff-df937a04b4e0")
 	)
-	(label "I2C3_SCL"
+	(label "I2C1_SCL"
 		(at 260.35 148.59 0)
 		(effects
 			(font
@@ -11646,7 +11646,7 @@
 		)
 		(uuid "60cc60eb-9529-45b1-b13e-b93c097a02c3")
 	)
-	(label "I2C3_SDA"
+	(label "I2C1_SDA"
 		(at 250.19 151.13 0)
 		(effects
 			(font
@@ -11886,7 +11886,7 @@
 		)
 		(uuid "91444f7c-45e7-43c3-a8e3-9c6ed38098ee")
 	)
-	(label "I2C1_SDA"
+	(label "I2C3_SDA"
 		(at 36.83 161.29 180)
 		(effects
 			(font
@@ -12096,7 +12096,7 @@
 		)
 		(uuid "cb0a469f-09bc-414b-a1ae-6262dbc8d8b9")
 	)
-	(label "I2C3_SCL"
+	(label "I2C1_SCL"
 		(at 250.19 148.59 0)
 		(effects
 			(font
@@ -12236,7 +12236,7 @@
 		)
 		(uuid "e58ea774-dd02-4d9f-85b1-97c7085e0c58")
 	)
-	(label "I2C3_SCL"
+	(label "I2C1_SCL"
 		(at 240.03 148.59 0)
 		(effects
 			(font
